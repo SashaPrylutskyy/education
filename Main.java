@@ -1,6 +1,12 @@
 class Main{
     public static void main(String[] args) {
-        // this line of code is just for nothing
         System.out.println("Glory to Ukraine!");
+
+        Main main = new Main();
+        System.out.println(main.summ(10, 8));
+    }
+
+    int summ(int a, int b){
+        return a+b;
     }
 }
