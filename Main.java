@@ -15,4 +15,6 @@ class Main{
     }
 
     //smth new
+
+    // tons of trash code was written by somebody
 }
