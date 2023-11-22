@@ -9,4 +9,10 @@ class Main{
     int summ(int a, int b){
         return a+b;
     }
+    
+    String summ(String message){
+        return message + "some text";
+    }
+
+    //smth new
 }
