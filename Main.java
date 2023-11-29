@@ -14,5 +14,7 @@ class Main{
         return message + "some text";
     }
 
-    //smth new
+    //the new calculator application
+
+    //add some lines of code right nere
 }
