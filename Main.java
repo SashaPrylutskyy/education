@@ -1,20 +1,17 @@
+import java.util.Scanner;
+
 class Main{
     public static void main(String[] args) {
-        System.out.println("Glory to Ukraine!");
+        Scanner scanner = new Scanner(System.in);
+        
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
 
         Main main = new Main();
-        System.out.println(main.summ(10, 8));
+        main.summ(a, b);
     }
 
-    int summ(int a, int b){
+    public int summ(int a, int b){
         return a+b;
     }
-    
-    String summ(String message){
-        return message + "some text";
-    }
-
-    //the new calculator application
-
-    //add some lines of code right nere
 }
